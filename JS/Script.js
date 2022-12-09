@@ -105,7 +105,9 @@ function getno(a){
 getno(-5)
 
 // write function to generate random background color of body
-document.body.style.backgroundColor="pink"
+var color=['purple','pink','green','orange','red']
+var bg=(Math.floor(Math.random()*color.length))
+document.body.style.backgroundColor=color[bg]
 
 // onload of your webpage, display modal (bootstrap 4/5)
 
